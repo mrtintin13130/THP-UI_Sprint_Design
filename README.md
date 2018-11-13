@@ -1,24 +1,13 @@
-# README
+# UI Sprint Design
+## Production
+Lien du site en production: [Cliquez ici](https://thp-ui-sprint-design-seille.herokuapp.com/)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Groupe
+Stéphane (Github user: Timmo404)
 
-Things you may want to cover:
+Elliot (Github user: nomoon456)
 
-* Ruby version
+Mickael (Github user: jango974)
 
-* System dependencies
+Martin (Github user: mrtintin13130)
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
