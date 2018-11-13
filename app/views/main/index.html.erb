@@ -1,0 +1,71 @@
+<ul class="navBar">
+  <li class="element"><a href="/" class="active">UI Sprint Design</a></li>
+  <li class="element"><a href="/">Accueil</a></li>
+  <li class="element"><a href="#">Nav 1</a></li>
+  <li class="element"><a href="#">Nav 2</a></li>
+  <li class="element" style="float: right;"><a href="/profile">Martin</a></li>
+  <li class="dropdown element" style="float: right;">
+    <span class="dropbtn"><%= image_tag("avatar.jpg", class: "avatar") %></span>
+    <div class="dropdown-content">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div>
+  </li>
+</ul>
+<h1 class="center mauve">UI Sprint Design</h1>
+
+<div class="tabs">
+  <button class="tablinks" onclick="openTab(event, 'tab1')" id="defaultOpen">Tab 1</button>
+  <button class="tablinks" onclick="openTab(event, 'tab2')">Tab 2</button>
+  <button class="tablinks" onclick="openTab(event, 'tab3')">Tab 3</button>
+</div>
+
+<div id="tab1" class="tabcontent">
+  <div class="card">
+    <div>
+      <%= image_tag("card_image.jpg", class: "card-image") %>
+    </div>
+    <div class="card-content">
+      <h3>Lorem Ipsum</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla suscipit finibus urna, ac lacinia augue pulvinar nec. Donec sed tortor non ipsum condimentum imperdiet imperdiet non odio.</p>
+      <div class="btn">
+        <center><a href="#" class="btn-mauve">Voir plus</a></center>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="tab2" class="tabcontent">
+  <div class="card">
+    <div>
+      <%= image_tag("card_image3.jpg", class: "card-image") %>
+    </div>
+    <div class="card-content">
+      <h3>Lorem Ipsum</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla suscipit finibus urna, ac lacinia augue pulvinar nec. Donec sed tortor non ipsum condimentum imperdiet imperdiet non odio.</p>
+      <div class="btn">
+        <center><a href="#" class="btn-mauve">Voir plus</a></center>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="tab3" class="tabcontent">
+  <div class="card">
+    <div>
+      <%= image_tag("card_image2.jpg", class: "card-image") %>
+    </div>
+    <div class="card-content">
+      <h3>Lorem Ipsum</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla suscipit finibus urna, ac lacinia augue pulvinar nec. Donec sed tortor non ipsum condimentum imperdiet imperdiet non odio.</p>
+      <div class="btn">
+        <center><a href="#" class="btn-mauve">Voir plus</a></center>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.getElementById("defaultOpen").click();
+</script>

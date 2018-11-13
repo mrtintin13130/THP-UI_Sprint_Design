@@ -1,0 +1,40 @@
+.card {
+  width: 25%;
+  background-color: white;
+  border: 1px solid #a62828;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-image {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px 10px 0 0;
+  border-bottom: 1px solid #a62828;
+}
+
+.card-content {
+  padding: 10px;
+}
+
+.btn {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.btn-mauve {
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px 10px 15px;
+  border-radius: 10px;
+  background-color: rgba(#a62828, 0.7);
+  border: 1px solid #a62828;
+}
+
+.btn-mauve:hover {
+  transition-duration: 1s;
+  background-color: #a62828;
+}
